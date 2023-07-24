@@ -3,6 +3,11 @@ import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
 
+console.log('hihi')
+import { res } from './temp.js'
+
+console.log(res, 'res')
+
 document.querySelector('#app').innerHTML = `
   <div>
     <a href="https://vitejs.dev" target="_blank">
